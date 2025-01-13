@@ -25,6 +25,7 @@ public class PlusMinus {
     }
 
     public static void plusMinus(List<Integer> arr) {
+
         double positive = 0;
         double negative = 0;
         double zeroes = 0;
@@ -43,6 +44,5 @@ public class PlusMinus {
         System.out.println( df.format(positive/arr.size()));
         System.out.println( df.format(negative/arr.size()));
         System.out.println( df.format(zeroes/arr.size()));
-
     }
 }
